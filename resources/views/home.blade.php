@@ -13,8 +13,7 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
-                    You are logged in!
+                    {{ trans('words.home_title') }}
                 </div>
             </div>
         </div>

@@ -19,6 +19,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/fontawesome-all.min.css') }}" rel="stylesheet">
 </head>
 <body>
     <div id="app">
@@ -62,6 +63,9 @@
                                 </div>
                             </li>
                         @endguest
+                            <li class="px-0"><a class="nav-link" href="{{ route('change-lang',['locale' => 'en']) }}">{{ __('en') }}</a></li>
+                            <li class="px-0"><a class="nav-link" href="{{ route('change-lang',['locale' => 'ru']) }}">{{ __('ru') }}</a></li>
+                            <li class="px-0"><a class="nav-link" href="{{ route('change-lang',['locale' => 'ua']) }}">{{ __('ua') }}</a></li>
                     </ul>
                 </div>
             </div>

@@ -60,6 +60,16 @@
                                 </a>
                             </div>
                         </div>
+                        
+                        <div class="form-group row mb-0 justify-content-md-center">
+                            <div class="col-md-8 text-center">
+                                <a href="{{ url('/auth/github') }}" class=""><i class="fab fa-github-square fa-3x"></i></a>
+                                <a href="{{ url('/auth/twitter') }}" class=""><i class="fab fa-twitter-square fa-3x"></i></a>
+                                <a href="{{ url('/auth/facebook') }}" class=""><i class="fab fa-facebook fa-3x"></i></a>
+                                <a href="{{ url('/auth/google') }}" class=""><i class="fab fa-google-plus-square fa-3x"></i></a>
+                                <a href="{{ url('/auth/linkedin') }}" class=""><i class="fab fa-linkedin fa-3x"></i></a>
+                            </div>
+                        </div>
                     </form>
                 </div>
             </div>
